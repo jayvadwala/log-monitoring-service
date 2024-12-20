@@ -1,5 +1,5 @@
 import express from 'express';
-import { getLogLines } from '../src/controllers/logController';
+import { getLogLines } from './controllers/logController';
 import cors from 'cors';
 
 const app = express();

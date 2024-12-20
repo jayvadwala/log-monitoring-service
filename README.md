@@ -29,7 +29,7 @@ This service provides a way to retrieve logs from a file in reverse order, with 
 
 1. Start the service:
     ```bash
-    npm start
+    npm run start
 
 2. API Endpoint:
     GET /logs
