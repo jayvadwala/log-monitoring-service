@@ -8,7 +8,7 @@
         "test": "jest --config jest.config.js",
         "dev": "ts-node src/app.ts",
         "docker:build": "docker build -t log-monitoring-service .",
-        "docker:run": "docker run --rm -p 3000:3000 -v /var/log:/var/log:ro log-monitoring-service"
+        "docker:run": "docker run --rm -p 3001:3001 -v /var/log:/var/log:ro log-monitoring-service"
     },
     "dependencies": {
         "cors": "^2.8.5",
